@@ -11,13 +11,13 @@ If you'd like to develop on and build the UCSB Data Science Capstone Projects 20
 	```bash
 	conda create -n jb python=3.8
 	conda activate jb
-	pip install -r requirements.txt     ## install python dependencies
 	conda activate jb                   ## makes newly installed packages available
 	```
 - Clone and build Capstone 2021 Jupyter book repository:
 	```bash
 	git clone https://github.com/ucsb-ds-capstone-2021/ucsb-ds-capstone-2021.github.io.git
 	cd ucsb-ds-capstone-2021.github.io/ucsb_ds_capstone_projects_2021
+	pip install -r requirements.txt     ## install python dependencies 
 	jupyter-book build .
 	```
 - Rendered HTML version of the book will be in `./ucsb_ds_capstone_projects_2021/_build/html/`.
